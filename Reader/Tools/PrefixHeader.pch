@@ -14,5 +14,6 @@
 #import "UIImage+Size.h"
 #import "UIView+Frame.h"
 #import "UINavigationBar+Color.h"
+#import <UIImageView+WebCache.h>
 
 #endif /* PrefixHeader_pch */

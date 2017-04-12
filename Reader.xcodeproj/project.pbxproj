@@ -22,6 +22,12 @@
 		59A06EDB1E968D35008B9A65 /* UINavigationBar+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A06EDA1E968D35008B9A65 /* UINavigationBar+Color.m */; };
 		59A06EDE1E968E14008B9A65 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A06EDD1E968E14008B9A65 /* UIView+Frame.m */; };
 		59A06EE51E969701008B9A65 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A06EE41E969701008B9A65 /* MineViewController.m */; };
+		59A06EE81E9A7998008B9A65 /* HomeCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A06EE71E9A7998008B9A65 /* HomeCollectionLayout.m */; };
+		59A06EEB1E9BACCE008B9A65 /* HomeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A06EEA1E9BACCE008B9A65 /* HomeCollectionCell.m */; };
+		59A06EEE1E9BACE0008B9A65 /* HomeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A06EED1E9BACE0008B9A65 /* HomeTableCell.m */; };
+		59A06EF11E9BAEB1008B9A65 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A06EF01E9BAEB1008B9A65 /* BookModel.m */; };
+		59A06EF41E9DBA6A008B9A65 /* ShadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A06EF31E9DBA6A008B9A65 /* ShadeView.m */; };
+		59A06F971E9DCEA4008B9A65 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A06F961E9DCEA4008B9A65 /* libz.tbd */; };
 		6959C6086B7B4FD94F204071 /* libPods-Reader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB0810D1CE6E1C58EFF1864 /* libPods-Reader.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +64,18 @@
 		59A06EDD1E968E14008B9A65 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		59A06EE31E969701008B9A65 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		59A06EE41E969701008B9A65 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		59A06EE61E9A7997008B9A65 /* HomeCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionLayout.h; sourceTree = "<group>"; };
+		59A06EE71E9A7998008B9A65 /* HomeCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionLayout.m; sourceTree = "<group>"; };
+		59A06EE91E9BACCE008B9A65 /* HomeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionCell.h; sourceTree = "<group>"; };
+		59A06EEA1E9BACCE008B9A65 /* HomeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionCell.m; sourceTree = "<group>"; };
+		59A06EEC1E9BACE0008B9A65 /* HomeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableCell.h; sourceTree = "<group>"; };
+		59A06EED1E9BACE0008B9A65 /* HomeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableCell.m; sourceTree = "<group>"; };
+		59A06EEF1E9BAEB1008B9A65 /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		59A06EF01E9BAEB1008B9A65 /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
+		59A06EF21E9DBA6A008B9A65 /* ShadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadeView.h; sourceTree = "<group>"; };
+		59A06EF31E9DBA6A008B9A65 /* ShadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadeView.m; sourceTree = "<group>"; };
+		59A06F961E9DCEA4008B9A65 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		59A0703A1E9DD1AE008B9A65 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		A92A973F3A015299791581DF /* Pods-Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reader/Pods-Reader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A06F971E9DCEA4008B9A65 /* libz.tbd in Frameworks */,
 				6959C6086B7B4FD94F204071 /* libPods-Reader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +122,7 @@
 		59A06E7D1E966821008B9A65 /* Reader */ = {
 			isa = PBXGroup;
 			children = (
+				59A06EF51E9DCCE7008B9A65 /* Resource */,
 				59A06ED51E96885F008B9A65 /* Extension */,
 				59A06E951E966A11008B9A65 /* AppDelegate */,
 				59A06E981E966A11008B9A65 /* BaseClasses */,
@@ -178,6 +198,8 @@
 		59A06EA71E966F35008B9A65 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				59A06EEF1E9BAEB1008B9A65 /* BookModel.h */,
+				59A06EF01E9BAEB1008B9A65 /* BookModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +216,14 @@
 		59A06EAB1E966F35008B9A65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				59A06EE61E9A7997008B9A65 /* HomeCollectionLayout.h */,
+				59A06EE71E9A7998008B9A65 /* HomeCollectionLayout.m */,
+				59A06EE91E9BACCE008B9A65 /* HomeCollectionCell.h */,
+				59A06EEA1E9BACCE008B9A65 /* HomeCollectionCell.m */,
+				59A06EEC1E9BACE0008B9A65 /* HomeTableCell.h */,
+				59A06EED1E9BACE0008B9A65 /* HomeTableCell.m */,
+				59A06EF21E9DBA6A008B9A65 /* ShadeView.h */,
+				59A06EF31E9DBA6A008B9A65 /* ShadeView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -368,9 +398,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		59A06EF51E9DCCE7008B9A65 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		D6CBE463F74E8A45ABAE4476 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59A0703A1E9DD1AE008B9A65 /* libxml2.tbd */,
+				59A06F961E9DCEA4008B9A65 /* libz.tbd */,
 				2BB0810D1CE6E1C58EFF1864 /* libPods-Reader.a */,
 			);
 			name = Frameworks;
@@ -501,9 +540,14 @@
 			files = (
 				59A06EBA1E967099008B9A65 /* BaseNavigationController.m in Sources */,
 				59A06EA11E966A11008B9A65 /* AppDelegate.m in Sources */,
+				59A06EF11E9BAEB1008B9A65 /* BookModel.m in Sources */,
+				59A06EEE1E9BACE0008B9A65 /* HomeTableCell.m in Sources */,
 				59A06ED01E967748008B9A65 /* ZoneViewController.m in Sources */,
+				59A06EF41E9DBA6A008B9A65 /* ShadeView.m in Sources */,
 				59A06EE51E969701008B9A65 /* MineViewController.m in Sources */,
 				59A06EDB1E968D35008B9A65 /* UINavigationBar+Color.m in Sources */,
+				59A06EE81E9A7998008B9A65 /* HomeCollectionLayout.m in Sources */,
+				59A06EEB1E9BACCE008B9A65 /* HomeCollectionCell.m in Sources */,
 				59A06EBB1E967099008B9A65 /* BaseTabbarController.m in Sources */,
 				59A06E801E966821008B9A65 /* main.m in Sources */,
 				59A06EAC1E966F35008B9A65 /* HomeViewController.m in Sources */,
@@ -632,13 +676,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LS5M3S8V46;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/yk/Desktop/Reader/Reader/Tools/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/RESideMenu\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
 				INFOPLIST_FILE = Reader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"RESideMenu\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = YK.Reader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -648,13 +710,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LS5M3S8V46;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/yk/Desktop/Reader/Reader/Tools/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/RESideMenu\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
 				INFOPLIST_FILE = Reader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"RESideMenu\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = YK.Reader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

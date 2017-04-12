@@ -38,13 +38,20 @@
 }
 
 - (void)addChildVC:(UIViewController *)childVC title:(NSString *)title image:(NSString *)image highlightImage:(NSString *)highlightImage {
-    childVC.title = title;
-    childVC.tabBarItem.image = [[UIImage imageNamed:image] scaleToSize:CGSizeMake(25, 25)];
-    childVC.tabBarItem.selectedImage = [[UIImage imageNamed: highlightImage] scaleToSize:CGSizeMake(25, 25)];
     BaseNavigationController *navigationVC = [[BaseNavigationController alloc] initWithRootViewController:childVC];
     MineViewController *mineVC = [[MineViewController alloc] init];
     RESideMenu *sideMenu = [[RESideMenu alloc] initWithContentViewController:navigationVC leftMenuViewController:mineVC rightMenuViewController:nil];
-    self.sideMenu = sideMenu;
+    sideMenu.tabBarItem.image = [[UIImage imageNamed:image] scaleToSize:CGSizeMake(25, 25)];
+    sideMenu.tabBarItem.selectedImage = [[UIImage imageNamed: highlightImage] scaleToSize:CGSizeMake(25, 25)];
+    sideMenu.title = title;
+    sideMenu.backgroundImage = [UIImage imageNamed:@"Stars"];
+    sideMenu.menuPreferredStatusBarStyle = 1; // UIStatusBarStyleLightContent
+//    sideMenu.delegate = self;
+    sideMenu.contentViewShadowColor = [UIColor blackColor];
+    sideMenu.contentViewShadowOffset = CGSizeMake(0, 0);
+    sideMenu.contentViewShadowOpacity = 0.6;
+    sideMenu.contentViewShadowRadius = 12;
+    sideMenu.contentViewShadowEnabled = YES;
     [self addChildViewController:sideMenu];
 }
 
